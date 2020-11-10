@@ -167,11 +167,24 @@ footer .svg-inline--fa:hover {
 
 /* Devices under 1199px (xl) */
 @media (max-width: 1199.98px) {
-
+  .carousel-caption h1 {
+    font-size: 2.8rem;
+  }
+  .carousel-caption h3 {
+    font-size: 1.8rem;
+  }
 }
-/* Devices under 768px (md) */
-@media (max-width: 767.98px) {
-
+/* Devices under 992px (lg) */
+@media (max-width: 991.98px) {
+  .carousel-caption h1 {
+    font-size: 2.5rem;
+  }
+  .carousel-caption h3 {
+    font-size: 1.5rem;
+  }
+  .btn-lg {
+    font-size: .95rem;
+  }
 }
 
 
