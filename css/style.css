@@ -6,49 +6,185 @@ body {
 }
 
 /*============= TOP BAR HEADER =============*/
-
+.top-bar {
+  background: #7aaec4;
+  height: 2.8rem;
+  padding: .5rem 0;
+}
+.top-bar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
 
 
 /*============= NAVIGATION =============*/
-
+.navbar-brand img {
+  height: 3rem;
+}
+.navbar {
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
+  z-index: 1;
+}
+.nav-item {
+  padding: .5rem;
+}
+.nav-link {
+  color: #5b5555!important;
+}
+.nav-link.active,
+.nav-link:hover {
+  color: #4981b3!important;
+}
 
 
 /*============= CAROUSEL =============*/
 
-
+#carousel {
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1);
+}
+.carousel-inner {
+  max-height: 38rem!important;
+}
 
 /*---Change Carousel Transition Speed --*/
-
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  transition: transform 1.2s ease;
+}
 
 /*-- Carousel Content --*/
-
-
+.carousel-caption {
+  position: absolute;
+  top: 54%;
+  transform: translateY(-50%);
+  text-transform: uppercase;
+}
+.bg-custom {
+  background-color: rgba(0, 0, 0, .4);
+  color: white;
+  border-radius: 1rem;
+}
+.carousel-caption h1 {
+  font-size: 3.8rem;
+  text-shadow: .1rem .1rem .3rem rgba(0, 0, 0, 1);
+}
+.border-primary {
+  border-top: .2rem solid #4981b3!important;
+}
+.carousel-caption h3 {
+  font-size: 2.2rem;
+  text-shadow: .1rem .1rem .2rem rgba(0, 0, 0, 1);
+}
+.btn-lg {
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 1rem;
+  border-width: medium;
+}
+.btn-danger {
+  background-color: #ac2615;
+  border: .05rem solid #ac2615;
+}
+.btn-primary {
+  background-color: #4981b3;
+  border: .05rem solid #4981b3;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #68a0d2;
+  border: .05rem solid #68a0d2;
+}
 
 /*===== FIXED BACKGROUND IMG =====*/
-
+.fixed {
+  background-image: url('../img/matrix.jpg');
+  position: fixed;
+}
+.fixed-background {
+  padding: 10rem 0;
+}
 
 
 /*-- Emoji Navbar --*/
-
+.emoji {
+  background-image: linear-gradient(to right, #4981b3, #ac2615);
+  min-height: 0!important;
+  padding: .4rem 0!important;
+}
+.emoji .svg-inline--fa {
+  margin: 0 auto;
+  color: white;
+  font-size: 2rem;
+}
 
 
 /*============= FOOTER =============*/
 
-
+footer {
+  background-color: #383838;
+  padding: 1rem 2rem 3rem;
+}
+footer img {
+  height: 3.5rem;
+  margin: 1.5rem auto;
+}
+footer p, 
+footer a,
+.socket a {
+  color: white;
+  text-decoration: none;
+}
+ul.social {
+  list-style-type: none;
+  display: flex;
+  max-width: 16rem;
+  margin: 0 auto;
+  padding: 0;
+}
+ul.social li {
+  margin: 0 auto;
+}
+footer .svg-inline--fa {
+  font-size: 2.3rem;
+}
+footer .svg-inline--fa:hover {
+  color: #68a0d2;
+}
 
 /*============= SOCKET =============*/
 
-
+.socket {
+  background-color: #222;
+  border-top: .1rem solid #4981b3;
+}
 
 /*============= MEDIA QUERIES =============*/
 
 /* Devices under 1199px (xl) */
 @media (max-width: 1199.98px) {
-
+  .carousel-caption h1 {
+    font-size: 2.8rem;
+  }
+  .carousel-caption h3 {
+    font-size: 1.8rem;
+  }
 }
-/* Devices under 768px (md) */
-@media (max-width: 767.98px) {
-
+/* Devices under 992px (lg) */
+@media (max-width: 991.98px) {
+  .carousel-caption h1 {
+    font-size: 2.5rem;
+  }
+  .carousel-caption h3 {
+    font-size: 1.5rem;
+  }
+  .btn-lg {
+    font-size: .95rem;
+  }
 }
 
 
