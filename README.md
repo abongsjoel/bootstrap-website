@@ -29,7 +29,7 @@ In this project, I built a simple responsive website while learning how to use b
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/abongsjoel/tj-weather-website/issues).
+Feel free to check the [issues page](https://github.com/abongsjoel/bootstrap-website/issues).
 
 ## Acknowledgments
 
