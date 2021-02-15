@@ -25,14 +25,22 @@ In this project, I built a simple responsive website while learning how to use b
 - Twitter: [@thierryjoel10](https://twitter.com/ThierryJoel10)
 - LinkedIn: [Chi Abongwa Joel](https://www.linkedin.com/in/chi-abongwa-joel-b4285a97/)
 
+## Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/abongsjoel/tj-weather-website/issues).
+
 ## Acknowledgments
 
 - [Drew Ryan](https://www.youtube.com/watch?v=TJF4ldO91n4)
 
 
 ## Show your support
+
 Give a ⭐️ if you like this project!
 
 ## License
+
   <p>This project is <a href="../Features/LICENSE">MIT</a> licensed.</p>
 
